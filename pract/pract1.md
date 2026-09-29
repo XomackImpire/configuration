@@ -125,3 +125,23 @@ COUNT=$(wc -l < /tmp/filelist.txt)
 rm -f /tmp/filelist.txt
 echo "Готово: txt.tar ($COUNT файлов)"
 ```
+
+wc -l - считаь только количество строк
+f - принудительное удаление
+
+## Задание 9
+
+```bash
+#!/bin/bash
+sed 's/ \{4\}/t/g' "$1" > "$2"
+```
+
+t - табуляция
+g - глобальная замена
+
+## Задание 10
+
+```bash
+#!/bin/bash
+find "$1" -type f -size 0
+```
