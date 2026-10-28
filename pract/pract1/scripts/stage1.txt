@@ -1,0 +1,6 @@
+ls
+ls -la
+cd /home/student
+unknown
+cd
+exit

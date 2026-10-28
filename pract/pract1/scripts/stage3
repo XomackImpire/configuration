@@ -1,0 +1,6 @@
+cd /
+cd home
+cd ..
+cd home/student
+cd no_such_dir
+exit
